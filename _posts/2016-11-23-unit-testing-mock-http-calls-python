@@ -2,6 +2,7 @@
 layout: default
 title: How to Mock HTTP Calls for Unit Testing in Python
 ---
+
 # How to Mock HTTP Calls for Unit Testing in Python
 
 This post shows how one can mock HTTP calls for unit testing in python without any additional library. In this post we presume that HTTP communication is done using python [requests](http://docs.python-requests.org/en/master/) library.
