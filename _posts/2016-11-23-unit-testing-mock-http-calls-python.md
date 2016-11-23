@@ -22,6 +22,7 @@ class XKCDDownloader:
 ```
 
 In order to mock this class, one can safe the JSON returned from the xkcd server to a file and use the following code:
+
 ```python
 class MockedXKCDDownloader(XKCDDownloader):
     def download_latest_comic_metadata(self):
