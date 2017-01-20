@@ -70,13 +70,17 @@ Here is a way how one can use drozer to launch an exported activity:
 dz> run app.activity.start --component com.android.insecurebankv2 com.android.insecurebankv2.ChangePassword
 ```
 
-On your android device/emulator you will see ![Vulnerable ChangePassword Activity launched from drozer](images/android-insecurebank-exported-activity-launched.PNG)
+On your android device/emulator you will see:
+
+![Vulnerable ChangePassword Activity launched from drozer](images/android-insecurebank-exported-activity-launched.PNG)
 
 The screen you are seeing will allow to change password without authenticating to the application. In this specific case, another person should have had an access to the device to be able to change password. However, there are cases when parameters can be passed to the activities being launched, and those activities would operate on the given parameters. It is important to keep that in mind when evaluating real-world applications (looking into the source code of exported activities would be warranted to determine whether it reads any parameters from an intent that was used to launch it).
 
 ### Fix
 
-The activity we looked at should not be exported, so the fix would be to remove `exported` attribute: ![Fixing vulnerable activity by removing exported attribute](images/android-insecurebank-exported-activity-fix.PNG). If we try to launch activity from drozer after this fix, we will get:
+The activity we looked at should not be exported, so the fix would be to remove `exported` attribute: 
+
+![Fixing vulnerable activity by removing exported attribute](images/android-insecurebank-exported-activity-fix.PNG). If we try to launch activity from drozer after this fix, we will get:
 
 ```
 Permission Denial: starting Intent { flg=0x10000000 cmp=com.android.insecurebankv2/.PostLogin (has extras) } from ProcessRecord{ad574180 1878:com.mwr.dz:remote/u0a72} (pid=1878, uid=10072) not exported from uid 10071
