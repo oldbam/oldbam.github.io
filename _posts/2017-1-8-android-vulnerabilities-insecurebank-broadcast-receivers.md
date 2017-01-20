@@ -16,7 +16,7 @@ Optional:
 
 ### Getting information
 
-In the [previous post](android/security/android-vulnerabilities-insecurebank-activities.html) we analyzed exported Activities. In this post we will look at exported Broadcast Receiver. Let's use drozer to check which receivers we have in our application:
+In the [previous post](/android/security/android-vulnerabilities-insecurebank-activities) we analyzed exported Activities. In this post we will look at exported Broadcast Receiver. Let's use drozer to check which receivers we have in our application:
 
 ```
 dz> run app.broadcast.info -a com.android.insecurebankv2 -i
