@@ -4,7 +4,10 @@ title: Learning Android applications security
 permalink: /android/security/
 ---
 
-Recently, I decided to learn about Android application security. Since good learning always requires certain amount of practice, I decided to apply obtained knowledge by analyzing one of the existing Android applications with known vulnerabilities. I chose [InsecureBankv2](https://github.com/dineshshetty/Android-InsecureBankv2) as an application under test. My goal was not only to find out vulnerable pieces of an application, but also figure out how to change the code to remove vulnerability. The result of this exercise was a series of blog posts which I am sharing now here.
+Recently, I decided to learn about Android application security. Since good learning always requires certain amount of practice, I decided to apply obtained knowledge by analyzing one of the existing Android applications with known vulnerabilities. I chose [InsecureBankv2](https://github.com/dineshshetty/Android-InsecureBankv2) as an application under test. My goal was not only to find out vulnerable pieces of an application, but also figure out how to change the code to remove vulnerability. The result of this exercise was a series of blog posts which I am sharing now here:
+
+* [Identifying and Fixing Vulnerable Android Activities](/android/security/android-vulnerabilities-insecurebank-activities)
+* [Identifying and Fixing Vulnerable Android Broadcast Receivers](/android/security/android-vulnerabilities-insecurebank-broadcast-receivers)
 
 When evaluating applications, I was using several tools:
 
