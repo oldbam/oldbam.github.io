@@ -73,7 +73,7 @@ dz> run app.activity.start --component com.android.insecurebankv2 com.android.in
 
 On your android device/emulator you will see:
 
-![Vulnerable ChangePassword Activity launched from drozer](images/android-insecurebank-exported-activity-launched.PNG)
+![Vulnerable ChangePassword Activity launched from drozer](/images/android-insecurebank-exported-activity-launched.PNG)
 
 The screen you are seeing will allow to change password without authenticating to the application. In this specific case, another person should have had an access to the device to be able to change password. However, there are cases when parameters can be passed to the activities being launched, and those activities would operate on the given parameters. It is important to keep that in mind when evaluating real-world applications (looking into the source code of exported activities would be warranted to determine whether it reads any parameters from an intent that was used to launch it).
 
@@ -81,7 +81,7 @@ The screen you are seeing will allow to change password without authenticating t
 
 The activity we looked at should not be exported, so the fix would be to remove `exported` attribute: 
 
-![Fixing vulnerable activity by removing exported attribute](images/android-insecurebank-exported-activity-fix.PNG). 
+![Fixing vulnerable activity by removing exported attribute](/images/android-insecurebank-exported-activity-fix.PNG). 
 
 If we try to launch activity from drozer after this fix, we will get:
 
