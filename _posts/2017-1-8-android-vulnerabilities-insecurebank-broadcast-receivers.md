@@ -51,7 +51,7 @@ dz> run app.broadcast.send --action theBroadcast --extra string phonenumber 1234
 
 If we look at our Android device now, we will see that we are about to send an sms message. Setting a premium rate sms number and forcing users to send messages without their consent is one of the ways bad guys can be making money: 
 
-![Sending sms message after triggering Broadcast Receiver](images/android-broadcast-receiver-exploited.PNG)
+![Sending sms message after triggering Broadcast Receiver](images/android-insecurebank-broadcast-receiver-exploited.PNG)
 
 ### Fix
 
