@@ -8,6 +8,13 @@
     <meta name="description" content="Personal blog about various Software Engineering topics authored by Rostik Slipetskyy">
     <title>{{ page.title }}</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
@@ -23,14 +30,14 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-	    <a class="navbar-brand" href="/">Rostik Slipetskyy :: blog</a>
+        <a class="navbar-brand" href="/">Rostik Slipetskyy :: blog</a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li class="active"><a href="/">Home <span class="sr-only">(current)</span></a></li>
-			  <li><a href="/android/security/">Android Security</a></li>
-			  <li><a href="/about/">About</a></li>
+              <li><a href="/android/security/">Android Security</a></li>
+              <li><a href="/about/">About</a></li>
             </ul>
           </div>
         </div>
@@ -38,7 +45,7 @@
     </header>
 
     <article>
-	  <h1>{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
       <div class="container">
         {{ content }}
       </div>
