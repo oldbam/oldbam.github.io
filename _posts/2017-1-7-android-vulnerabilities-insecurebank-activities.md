@@ -80,7 +80,9 @@ The screen you are seeing will allow to change password without authenticating t
 
 The activity we looked at should not be exported, so the fix would be to remove `exported` attribute: 
 
-![Fixing vulnerable activity by removing exported attribute](images/android-insecurebank-exported-activity-fix.PNG). If we try to launch activity from drozer after this fix, we will get:
+![Fixing vulnerable activity by removing exported attribute](images/android-insecurebank-exported-activity-fix.PNG). 
+
+If we try to launch activity from drozer after this fix, we will get:
 
 ```
 Permission Denial: starting Intent { flg=0x10000000 cmp=com.android.insecurebankv2/.PostLogin (has extras) } from ProcessRecord{ad574180 1878:com.mwr.dz:remote/u0a72} (pid=1878, uid=10072) not exported from uid 10071
