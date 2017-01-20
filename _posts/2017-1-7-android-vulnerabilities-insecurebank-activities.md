@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Identifying and fixing security vulnerabilities of Android applications - Activities
+permalink: /android/security/:title
 ---
 
 ### Prerequisites 
