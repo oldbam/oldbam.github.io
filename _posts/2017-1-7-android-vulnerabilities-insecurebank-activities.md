@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Identifying and fixing security vulnerabilities of Android applications - Activities
+title: Identifying and Fixing Security Vulnerabilities of Android Applications - Activities
 permalink: /android/security/:title
 ---
 
