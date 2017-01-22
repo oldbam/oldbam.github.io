@@ -1,3 +1,5 @@
 name: Rostik Slipetskyy
 permalink: /:categories/:title.html
+gems:
+  - jekyll-sitemap
 
