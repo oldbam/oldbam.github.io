@@ -9,6 +9,7 @@ Recently, I decided to learn about Android application security. Since good lear
 * [Identifying and Fixing Vulnerable Android Activities](/android/security/android-vulnerabilities-insecurebank-activities)
 * [Identifying and Fixing Vulnerable Android Broadcast Receivers](/android/security/android-vulnerabilities-insecurebank-broadcast-receivers)
 * [Identifying and Fixing Vulnerable Android Content Providers Receivers](/android/security/android-vulnerabilities-insecurebank-content-providers)
+* [Protecting Data in Transit](/android/security/android-vulnerabilities-insecurebank-data-in-transit)
 
 When evaluating applications, I was using several tools:
 
