@@ -8,7 +8,7 @@ Recently, I decided to learn about Android application security. Since good lear
 
 * [Identifying and Fixing Vulnerable Android Activities](/android/security/android-vulnerabilities-insecurebank-activities)
 * [Identifying and Fixing Vulnerable Android Broadcast Receivers](/android/security/android-vulnerabilities-insecurebank-broadcast-receivers)
-
+* [Identifying and Fixing Vulnerable Android Content Providers Receivers](/android/security/android-vulnerabilities-insecurebank-content-providers)
 When evaluating applications, I was using several tools:
 
 * [Drozer](https://labs.mwrinfosecurity.com/tools/drozer) makes it easy to analyze attack surface by showing exported Android components: activities, services, content providers, and broadcast receivers.
