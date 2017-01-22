@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Identifying and Fixing Security Vulnerabilities of Android Applications - Protecting Data at Rest
+permalink: /android/security/:title
 ---
 
 ### Prerequisites
