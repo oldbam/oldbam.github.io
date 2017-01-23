@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learning Android applications security
-description: Learn to identify and fix android application security flaws by analyzing vulnerable app
+description: Learn to identify and fix android application security flaws by following a series of blog posts which analyze a vulnerable application 
 permalink: /android/security/
 ---
 

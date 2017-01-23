@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Identifying and Fixing Security Vulnerabilities of Android Applications - Broadcast Receivers
+description: Identify and fix security vulnerabilities in Android broadcast receiver implementations
 permalink: /android/security/:title
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Identifying and Fixing Security Vulnerabilities of Android Applications - Protecting Data in Transit
+description: Learn how to protect data in transit by analyzing vulnerable Android application
 permalink: /android/security/:title
 ---
 

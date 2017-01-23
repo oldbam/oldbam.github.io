@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Identifying and Fixing Security Vulnerabilities of Android Applications - Content Providers
+description: Identify and fix security vulnerabilities in Android content provider implementations
 permalink: /android/security/:title
 ---
 
