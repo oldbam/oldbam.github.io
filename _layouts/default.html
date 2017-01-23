@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rostik Slipetskyy">
-    <meta name="description" content="Personal blog about various Software Engineering topics authored by Rostik Slipetskyy">
+    {% if page.description %}<meta name="description" content="{{ page.description }}">
+	{% else %}<meta name="description" content="Personal blog about various Software Engineering topics authored by Rostik Slipetskyy">
+	{% endif %}
     <title>{{ page.title }}</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <style>
