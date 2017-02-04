@@ -1,9 +1,12 @@
 ---
 layout: default
-title: Identifying and Fixing Security Vulnerabilities of Android Applications - Protecting Data at Rest
+title: Protecting Data at Rest in Android Applications
 description: Learn how to protect data at rest by analyzing vulnerable Android application
 permalink: /android/security/:title
+last_modified_at: 2017-2-4
 ---
+
+{% include android-app-security-series-intro.html %}
 
 ### Prerequisites
 

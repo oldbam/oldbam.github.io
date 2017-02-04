@@ -1,9 +1,11 @@
 ---
 layout: default
-title: Identifying and Fixing Security Vulnerabilities of Android Applications - Content Providers
+title: Vulnerable Android Content Providers
 description: Identify and fix security vulnerabilities in Android content provider implementations
 permalink: /android/security/:title
+last_modified_at: 2017-2-4
 ---
+{% include android-app-security-series-intro.html %}
 
 ### Prerequisites 
 
