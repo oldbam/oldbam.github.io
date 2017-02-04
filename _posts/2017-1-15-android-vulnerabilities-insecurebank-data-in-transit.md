@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Protecting Data in Transit in Android Applications
-description: Learn how to protect data in transit by analyzing vulnerable Android application
+description: Learn Android Security. See how to protect data in transit by analyzing vulnerable Android application
 permalink: /android/security/:title
 last_modified_at: 2017-2-4
 ---

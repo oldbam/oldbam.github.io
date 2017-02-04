@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vulnerable Android Broadcast Receivers
-description: Identify and fix security vulnerabilities in Android broadcast receiver implementations
+description: Learn Android Security. Identify and fix security vulnerabilities in Android broadcast receiver implementations
 permalink: /android/security/:title
 last_modified_at: 2017-2-4
 ---

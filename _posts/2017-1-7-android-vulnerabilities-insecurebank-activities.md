@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vulnerable Android Activities
-description: Identify and fix security vulnerabilities in Android activities implementations
+description: Learn Android Security. Identify and fix security vulnerabilities in Android activities implementations
 permalink: /android/security/:title
 last_modified_at: 2017-2-4
 ---
