@@ -3,7 +3,7 @@ layout: default
 title: Protecting Data at Rest in Android Applications
 description: Learn Android Security. See how to protect data at rest by analyzing vulnerable Android application
 permalink: /android/security/:title
-last_modified_at: 2017-2-4
+last_modified_at: 2017-2-6
 ---
 
 {% include android-app-security-series-intro.html %}
@@ -115,7 +115,9 @@ A potential solution is to use Password Based Encryption when you generate a key
 * Use Key Derivation Function with large number of iterations and sufficient salt length to generate the key. If I were to determine the current recommended values for which function to use for password-based key derivation, I would probably check with U.S. National Institute of Standards and Technology - NIST, you can look [here](http://dx.doi.org/10.6028/NIST.SP.800-132) and [here](https://pages.nist.gov/800-63-3/). At the time of writing the recommendations are [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) with salt value of 32 bits or more, at least 10000 iterations of hash function. Key length was recommended to be 112 bits as of December 2010, however, at least twice as large value is probably warranted. Again, you should check for updated values yourself.
 * Use the generated key to encrypt password with symmetric encryption. AES-256 with Cipher Block Chaining mode (CBC) is considered fine at the time of writing (use [NIST](https://www.nist.gov/) recommendations for up-to-date values).
 
-Please, note that our view of locally stored data would be incomplete if we didn't look at /sdcard. It is worth remembering that all data stored on SD card is world-readable, so, if your application _does_ store any data there, make sure that it is not sensitive. As for the InsecureBank application, it looks like no files related to the application seem to be stored on SD card.
+Another option to having user specifying password for key derivation is to store data for key derivation outside of the device, i.e. on the server side.
+
+Please, note that our view of locally stored data would be incomplete if we didn't look at /sdcard. It is worth remembering that all data stored on SD card is world-readable, so, if your application _does_ store any data there, make sure that it is not sensitive. As for the InsecureBank application, we will take a look at SD card storage when we analyze Web Views in one of the other posts.
 
 ### Summary
 
